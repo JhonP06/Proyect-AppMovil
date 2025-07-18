@@ -22,10 +22,10 @@ export default function HomeScreen({ navigation }: any) {
                 </TouchableOpacity>
 
         <TouchableOpacity style={styles.button} 
-            onPress={() => navigation.navigate("Empezar") }
+            onPress={() => navigation.navigate("Registrarse") }
             >
                 <Text style={styles.buttonText}> 
-                    Empezar
+                    Registrarse
                 </Text>
             </TouchableOpacity>
         </View>
